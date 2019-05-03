@@ -144,6 +144,7 @@ message TezosSignBakerOp {
     optional bytes chain_id = 2;
     optional TezosEndorsement endorsement = 3;
     optional TezosBlockHeader block_header = 4;
+    optional bool show_display = 5;
 
     /**
      * Structure representing endorsement
